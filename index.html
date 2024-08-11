@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lionel potfolio</title>
+    <link rel="icon" href="./Root/assets/logo.png">
+    <style>
+        html {
+            font-size: 22px;
+        }
+
+        body {
+            background-color: black;
+            color: whitesmoke;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>this is my potfolio </h1>
+    <h2>my name is lionel and am a web developer</h2>
+    <hr />
+    <h2>
+        <p><a href="./Root/pages/lion3.html">project favourite movies</a></p>
+    </h2>
+    <p><img src="./Root/assets/Screenshot 3...png" height="500" alt="screenshot of project favourite movies" /></p>
+    <h2>
+        <p><a href="./Root/pages/lion6.html">project top five websites of all times</a></p>
+    </h2>
+    <p><img src="./Root/assets/Screenshot 6.....png" height="500"
+            alt="screenshot of project top five websites of all times" /></p>
+    <h2>
+        <p><a href="./Root/pages/lion7.html">project favourite super hero</a></p>
+    </h2>
+    <img src="./Root/assets/Screenshot (11).png" height="500" alt="screenshot of project favourite super hero" />
+    <h2>for more information contact me on the link below</h2>
+    <h1>
+        <p><a href="./Root/pages/contact.html">contact</a></p>
+    </h1>
+
+    <hr>
+    <h2>this is my personal information</h2>
+    <form action="https://httpbin.org/get" method="get">
+        <fieldset>
+            <legend>personal info</legend>
+            <p>
+                <label for="firstName">firstName</label>
+                <input type="text" id="firstName" name="firstName" placeholder="firstName" autocomplete="on" autofocus
+                    required>
+            </p>
+            <p>
+                <label for="second name">second name</label>
+                <input type="text" id="second name" name="second name" placeholder="second name" autocomplete="on"
+                    required>
+            </p>
+            <p>
+                <label for="password">password</label>
+                <input type="password" id="password" name="password" placeholder="your secret" autocomplete="on"
+                    required>
+            </p>
+            <p>
+                <label for="phone">phone</label>
+                <input type="tel" id="phone" name="phone" placeholder="07xxxxxxxx" pattern="[0-9]{3}[0-9]{3}[0-9]{4}" required>
+            </p>
+            <p>
+                <label for="decade">favorite decade</label>
+                <input type="number" id="decade" name="decade" min="1910" max="2024" step="10" value="1980" required>
+            </p>
+            <p>
+                <label for="food">food</label>
+                <select name="food" id="food" required>
+                    <optgroup label="section 1">
+                        <option value="meat">meat</option>
+                        <option value="rice">rice</option>
+                        <option value="beans">beans</option>
+                    </optgroup>
+                    <optgroup label="section 2">
+                        <option value="fish">fish</option>
+                        <option value="chicken">chicken</option>
+                        <option value="pizza">pizza</option>
+                    </optgroup>
+                    <optgroup label="section 3">
+                        <option value="chips">chips</option>
+                        <option value="potatos">meat</option>
+                        <option value="vegetables">vegetables</option>
+                    </optgroup>
+                    <optgroup label="section 4">
+                        <option value="fanta">fanta</option>
+                        <option value="juice">juice</option>
+                        <option value="beer">beer</option>
+                    </optgroup>
+                </select>
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>which is your favorite football team</legend>
+            <p>
+                <input type="radio" name="team" id="team" value="manchester city">
+                <label for="team">manchester city</label>
+            </p>
+            <p>
+                <input type="radio" name="team" id="team"  value="Arsenal">
+                <label for="team">Arsenal</label>
+            </p>
+            <p>
+                <input type="radio" name="team" id="team" value="Liverpool">
+                <label for="team">Liverpool</label>
+            </p>
+            <p>
+                <input type="radio" name="team" id="team" value="chelsea">
+                <label for="team">chelsea</label>
+            </p>
+            <p>
+                <input type="radio" name="team" id="team" value="manchester united">
+                <label for="team">manchester united</label>
+            </p>
+            <p>
+                <input type="radio" name="team" id="team" value="tottenham hotspur">
+                <label for="team">tottenham hotspur</label>
+            </p>
+            <p>
+                <input type="radio" name="team" id="team" value="Aston villa">
+                <label for="team">Aston villa</label>
+            </p>
+            <p>
+                <input type="radio" name="team" id="team"  value="others">
+                <label for="team">others</label>
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>which pet do you like</legend>
+            <p>
+                <input type="checkbox" name="pets" id="pets"  value="Dog" >
+                <label for="pets">Dog</label>
+            </p>
+            <p>
+                <input type="checkbox" name="pets" id="pets" value="Cat">
+                <label for="pets">Cat</label>
+            </p>
+            <p>
+                <input type="checkbox" name="pets" id="pets" value="Fish">
+                <label for="pets">Fish</label>
+            </p>
+            <p>
+                <input type="checkbox" name="pets" id="pets" value="Frog">
+                <label for="pets">Frog</label>
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>what is your favorite super hero</legend>
+            <p>
+                <label for="movies">your favorite super hero</label>
+                <input type="list" name="movies" id="movies" list="movie-list" required >
+                <datalist id="movie-list">
+                    <option value="spider-man">
+                    <option value="Batman">
+                    <option value="superman">
+                    <option value="the flash">
+                    <option value="aquaman">
+                    <option value="wonder woman">
+                </datalist>
+            </p>
+           
+        </fieldset>
+        <fieldset>
+            <legend>send me a message</legend>
+            <p>
+                <label for="message">message</label>
+                <br>
+                <textarea name="message" id="message" cols="30" rows="10" placeholder="write any message you would like us to know" required></textarea >
+            </p>
+        </fieldset>
+        <h2>
+            
+        <button type="submit">submit</button>
+        <button type="reset">reset</button>
+        <button type="submit" formaction="https://httpbin.org/post" formmethod="post">post</button>
+        </h2>
+    </form>
+</body>
+
+</html>
